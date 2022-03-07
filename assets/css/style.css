@@ -1,0 +1,160 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e9e9e9;
+}
+
+#layout {
+    min-width: 260px;
+    padding: 0px;
+}
+
+#header {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: 20px auto 10px auto;
+    border: 5px double #afafaf;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#campos {
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#campos form {
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px double #afafaf;
+    max-width: 800px;
+}
+
+#campos input{
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#campos form input[type=button]{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#campos form input[type=submit]{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+#btn-consultar {
+    background-color: #28A745;
+    border: 1px solid #CCC;
+    color: white;
+    font-weight: 500;
+}
+
+#btn-cadastrar {
+    background-color: #28A745;
+    border: 1px solid #CCC;
+    color: white;
+    font-weight: 500;
+}
+
+#btn-visualizar {
+    text-decoration: none;
+    border: 1px solid #CCC;
+    background-color: #007BFF;
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/****** TELA CADASTROS *********/
+
+
+
+#direita table th{
+    padding: 7px 10px;
+}
+
+#direita table td{
+    padding: 7px 10px;
+    color: #E9ECEF;
+}
+
+#link-cadastrar {
+    display: inline-block;
+    background: #007BFF;
+    font-size: 12pt;
+    font-weight: 500;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+#link-cadastrar a {
+    text-decoration: none;
+    color: white;
+}
+
+#botoes { /*Botões da tabela*/
+    min-width: 140px;
+}
+
+#alterar {
+    background-color: #FFC107;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+#excluir {
+    background-color: #DC3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+
+/************ TELA EDITAR *****************/
+
+#btn-salvar {
+    background-color: #28A745;
+    border: 1px solid #CCC;
+    color: white;
+    font-weight: 500;
+}
+
+#btn-voltar {
+    text-decoration: none;
+    border: 1px solid #CCC;
+    background-color: #5A6268;
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 5px;
+}
